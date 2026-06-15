@@ -1,8 +1,8 @@
 # Assets
 
-Add dashboard screenshots here after building the Power BI report.
+Dashboard screenshots are added here after building the Power BI report.
 
-Suggested files:
+The files are:
 
 ```text
 01-data-quality.png
@@ -12,5 +12,3 @@ Suggested files:
 05-public-assistance-birth-outcomes.png
 06-infectious-disease-trends.png
 ```
-
-Use these screenshots in the main README after the report is complete.

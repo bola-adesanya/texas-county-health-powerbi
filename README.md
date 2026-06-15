@@ -55,7 +55,7 @@ texas-county-health-powerbi/
     └── README.md
 ```
 
-## Recommended Power BI report pages
+## Power BI report pages
 
 1. **Data Quality Overview** — row count, county count, year count, missing values
 2. **County Population Explorer** — population by county and year
@@ -67,9 +67,13 @@ texas-county-health-powerbi/
 
 ## Data source
 
-The expected input is a folder of yearly Texas county public health CSV files with one row per county per year.
+The input is a folder of yearly Texas county public health CSV files with one row per county per year.
 
-This repo does **not** include raw data by default. Add your CSV files to a local `data/raw/` folder and keep them out of Git unless the dataset license allows redistribution.
+This repo does **not** include raw data by default. The CSV files are available in the local `data/raw/` folder.
+
+## Data dictionary
+
+The data dictionary is documented in `docs/data-dictionary-notes.md` and includes descriptions of all relevant columns.
 
 ## Key measures
 
@@ -93,10 +97,14 @@ The DAX file includes reusable measures for:
 7. Build the report pages described in `docs/dashboard-design.md`.
 8. Export screenshots to `assets/` for the GitHub README.
 
-## LinkedIn positioning
+## Contact
 
-Suggested framing:
+Questions?  
 
-> I converted a biomedical informatics public health data-access assignment into a Power BI portfolio project focused on Texas county health analytics. The dashboard highlights demographic patterns, mortality and injury extremes, food assistance utilization, insurance-stratified low birth weight outcomes, infectious disease trends, and employment indicators.
+- GitHub: [github.com/bola-adesanya]
+- LinkedIn: [linkedin.com/in/bola-adesanya]
+- Email: [hello@bolaadesanya.com]
 
-See `docs/linkedin-post.md` for a full post draft.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

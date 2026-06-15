@@ -8,7 +8,7 @@ data/raw/
 
 This folder is intentionally ignored by Git.
 
-Expected grain:
+Expected:
 
 ```text
 One row per Texas county per year

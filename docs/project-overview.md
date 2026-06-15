@@ -2,7 +2,7 @@
 
 ## Objective
 
-Build a Power BI dashboard that analyzes Texas county-level public health data across population, demographics, mortality, injury, infectious disease, insurance, poverty, birth outcomes, and employment indicators.
+Power BI dashboard that analyzes Texas county-level public health data across population, demographics, mortality, injury, infectious disease, insurance, poverty, birth outcomes, and employment indicators.
 
 ## Analytical scope
 
