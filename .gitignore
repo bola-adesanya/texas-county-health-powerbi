@@ -1,0 +1,25 @@
+# Power BI local/cache files
+*.pbit.tmp
+*.pbix.tmp
+
+# Raw data - do not commit unless allowed by dataset license
+/data/raw/
+/data/interim/
+
+# Outputs that may contain generated extracts
+/outputs/*.xml
+/outputs/*.json
+/outputs/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Logs
+*.log
