@@ -2,6 +2,9 @@
 *.pbit.tmp
 *.pbix.tmp
 
+# Power BI files
+*.pbix
+
 # Raw data - do not commit unless allowed by dataset license
 /data/raw/
 /data/interim/

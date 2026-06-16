@@ -1,6 +1,6 @@
 # Power BI files
 
-Save the finished Power BI file here:
+Save the finished Power BI file here. Note that this is ignored by Git:
 
 ```text
 powerbi/texas-county-health-analytics.pbix
