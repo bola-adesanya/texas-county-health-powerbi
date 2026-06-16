@@ -23,6 +23,8 @@ let
         CleanColumnNames,
         List.Transform(ExistingNumericColumns, each {_, ToNumber, type nullable number})
     ),
-    SetCountyText = Table.TransformColumnTypes(ConvertNumbers, {{"CONAME", type text}})
+    SetCountyText = Table.TransformColumnTypes(ConvertNumbers, {{"CONAME", type text}}),
+TrimCountyNames = Table.TransformColumns(SetCountyText, {{"CONAME", each Text.Trim(_), type text}}),
+CountyRowsOnly = Table.SelectRows(TrimCountyNames, each [CONAME] <> null and Text.Contains([CONAME], "County"))
 in
-    SetCountyText
+    CountyRowsOnly

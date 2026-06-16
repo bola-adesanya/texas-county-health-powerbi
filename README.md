@@ -90,6 +90,7 @@ The DAX file includes reusable measures for:
 
 1. Clone the repo.
 2. Place yearly CSV files in `data/raw/` locally.
+   Note: The project expects 254 Texas county rows per year and uses county-level fields.
 3. Open Power BI Desktop.
 4. Use **Get Data → Folder** to load the files.
 5. Apply the Power Query transformations in `src/powerquery/`.
@@ -101,9 +102,9 @@ The DAX file includes reusable measures for:
 
 Questions?  
 
-- GitHub: [github.com/bola-adesanya]
-- LinkedIn: [linkedin.com/in/bola-adesanya]
-- Email: [hello@bolaadesanya.com]
+- GitHub: [github.com/bola-adesanya](https://github.com/bola-adesanya)
+- LinkedIn: [linkedin.com/in/bola-adesanya](https://www.linkedin.com/in/bola-adesanya)
+- Email: [hello@bolaadesanya.com](mailto:hello@bolaadesanya.com)
 
 ## License
 

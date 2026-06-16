@@ -2,6 +2,12 @@
 Validate that yearly Texas county health CSV files contain the minimum fields
 needed for the Power BI dashboard.
 
+Expected Files:
+- data/raw/Data File for Texas Health Facts 2006.csv
+- data/raw/Data File for Texas Health Facts 2007.csv
+- data/raw/Data File for Texas Health Facts 2008.csv
+- data/raw/Data File for Texas Health Facts 2009.csv                       
+
 Usage:
     python scripts/validate_schema.py data/raw
 """
